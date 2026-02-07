@@ -1,0 +1,14 @@
+{
+  "clusters": {
+    "APT29": 2,
+    "INPUT CAPTURE": 0,
+    "CARBANAK": 0,
+    "SCREEN CAPTURE": 0,
+    "FIN6": 1,
+    "FIN7": 2,
+    "OILRIG": 2,
+    "SANDWORM": 1,
+    "WIZARDSPIDER": 1
+  },
+  "k": 3
+}

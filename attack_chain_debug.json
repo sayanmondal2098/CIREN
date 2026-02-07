@@ -1,0 +1,507 @@
+{
+  "sample_nodes": [
+    {
+      "node": "APT29",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXPLOITATION FOR CLIENT EXECUTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "USER EXECUTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "MASQUERADING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "INPUT CAPTURE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PHISHING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "INGRESS TOOL TRANSFER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "REMOTE ACCESS SOFTWARE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "VIRTUALIZATION/SANDBOX EVASION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "OBFUSCATED FILES OR INFORMATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXFILTRATION OVER ALTERNATIVE PROTOCOL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "WINDOWS MANAGEMENT INSTRUMENTATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COMPROMISE ACCOUNTS",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COMMAND AND SCRIPTING INTERPRETER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "CARBANAK",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "SCREEN CAPTURE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXTERNAL REMOTE SERVICES",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "REMOTE SERVICES",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "SYSTEM INFORMATION DISCOVERY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DATA FROM LOCAL SYSTEM",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "WEB SERVICE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXFILTRATION OVER WEB SERVICE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "INGRESS TOOL TRASNFER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "INGRESS TOOLS TRANSFER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "CREDENTIALS FROM PASSWORD STORES",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "FILE AND DIRECTORY DISCOVERY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DATA DESTRUCTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PROTOCOL TUNNELING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PROCESS INJECTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DISK WIPE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "CREATE ACCOUNT",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ACCOUNT ACCESS REMOVAL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "INDICATOR REMOVAL ON HOST",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "APPLICTION LAYER PROTOCOL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PROCESS DISCOVERY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXFILTRATION OVER C2 CHANNEL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DATA ENCRYPTED",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "FIN6",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ACQUIRE INFRASTRUCTURE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXPLOIT PUBLIC-FACING APPLICATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "GATHER VICTIM IDENTITY INFORMATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "SERVER SOFTWARE COMPONENT",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "SYSTEM NETWORK DISCOVERY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ARCHIVE COLLECTED DATA",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "VALID ACCOUNTS",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PISHING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "FIN7",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "HIJACK EXECUTION FLOW",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "APPLICATION LAYER PROTOCOL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DEOBFUSCATE/DECODE FILES OR INFORMATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ENCRYPTED CHANNEL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EVENT TRIGGER EXECUTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "OILRIG",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "OS CREDENTAIL DUMPING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "SANDWORM",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "FIRMWARE CORRUPTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "WIZARDSPIDER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "CREDENTIAL FROM PASSWORD STORES",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "OS CREDENTIAL DUMPING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COMMAND AND SCRIPTING",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXECUTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DEFENSE EVASION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COLLECTION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "INITIAL ACCESS",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COMMAND AND CONTROL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "EXFILTRATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "RESOURCE DEVELOPMENT",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PERSISTENCE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "LATERAL MOVEMENT",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "DISCOVERY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COMMAND AND CONTROLE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "CREDENTIAL ACCESS",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "IMPACT",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PRIVILEGE ESCALATION",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "RECONNAISSANCE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COMMUNICATION AND CONTROL",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "CREDENTIALS ACCESS",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COSMICDUKE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COZYDUKE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "AdobeARM",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ATI-Agent",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "MiniDionis",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "SEADUKE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "UPX",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PYINSTALLER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "POSHSPY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ANUNAK",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "AGENT ORM",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "VB FLASH",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "JS FLASH",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "METERPETER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "BATELEUR",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "AMMYY",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "COBALT STRIKE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "METASPLOIT",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "ADFIND",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "7-Zip",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "BOOSTWRITE",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "RDFSNIFFER",
+      "label": null,
+      "tactic": null
+    },
+    {
+      "node": "PSEXEC",
+      "label": null,
+      "tactic": null
+    }
+  ],
+  "start_count": 2,
+  "end_count": 8,
+  "collected_paths": 5000
+}

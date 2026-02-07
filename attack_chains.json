@@ -1,0 +1,1562 @@
+{
+  "start_nodes": [
+    "PHISHING",
+    "INITIAL ACCESS"
+  ],
+  "end_nodes": [
+    "EXFILTRATION OVER ALTERNATIVE PROTOCOL",
+    "EXFILTRATION OVER WEB SERVICE",
+    "DATA DESTRUCTION",
+    "EXFILTRATION OVER C2 CHANNEL",
+    "DATA ENCRYPTED",
+    "ENCRYPTED CHANNEL",
+    "EXFILTRATION",
+    "IMPACT"
+  ],
+  "top_chains": [
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "COSMICDUKE",
+        "MASQUERADING",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "COSMICDUKE",
+          "MASQUERADING",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "COSMICDUKE",
+        "MASQUERADING",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "COSMICDUKE",
+          "MASQUERADING",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "COSMICDUKE",
+        "MASQUERADING",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "COSMICDUKE",
+          "MASQUERADING",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "MASQUERADING",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "MASQUERADING",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "MASQUERADING",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "MASQUERADING",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "INGRESS TOOL TRANSFER",
+        "CARBANAK",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "INGRESS TOOL TRANSFER",
+          "CARBANAK",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "INGRESS TOOL TRANSFER",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "INGRESS TOOL TRANSFER",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "INGRESS TOOL TRANSFER",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "INGRESS TOOL TRANSFER",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "INGRESS TOOL TRANSFER",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "INGRESS TOOL TRANSFER",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "PROCESS INJECTION",
+        "CARBANAK",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "PROCESS INJECTION",
+          "CARBANAK",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "PROCESS INJECTION",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "PROCESS INJECTION",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "PROCESS INJECTION",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "PROCESS INJECTION",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "PROCESS INJECTION",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "PROCESS INJECTION",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "PROCESS INJECTION",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "PROCESS INJECTION",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "HIJACK EXECUTION FLOW",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "HIJACK EXECUTION FLOW",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "HIJACK EXECUTION FLOW",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "HIJACK EXECUTION FLOW",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "APPLICATION LAYER PROTOCOL",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "APPLICATION LAYER PROTOCOL",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "DEOBFUSCATE/DECODE FILES OR INFORMATION",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "DEOBFUSCATE/DECODE FILES OR INFORMATION",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "DEOBFUSCATE/DECODE FILES OR INFORMATION",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "DEOBFUSCATE/DECODE FILES OR INFORMATION",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "BOOSTWRITE",
+        "ENCRYPTED CHANNEL",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "BOOSTWRITE",
+          "ENCRYPTED CHANNEL",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "INPUT CAPTURE",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "INPUT CAPTURE",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "INGRESS TOOL TRANSFER",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "INGRESS TOOL TRANSFER",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "INGRESS TOOL TRANSFER",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "INGRESS TOOL TRANSFER",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "REMOTE ACCESS SOFTWARE",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "REMOTE ACCESS SOFTWARE",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "SCREEN CAPTURE",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "SCREEN CAPTURE",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "WEB SERVICE",
+        "VB FLASH",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "WEB SERVICE",
+          "VB FLASH",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "JS FLASH",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "COMMAND AND SCRIPTING INTERPRETER",
+          "JS FLASH",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "COMMAND AND SCRIPTING INTERPRETER",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "INGRESS TOOL TRASNFER",
+        "JS FLASH",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "INGRESS TOOL TRASNFER",
+          "JS FLASH",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "PROCESS INJECTION",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "PROCESS INJECTION",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "PROCESS INJECTION",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "PROCESS INJECTION",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "PROCESS INJECTION",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "PROCESS INJECTION",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "INDICATOR REMOVAL ON HOST",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "INDICATOR REMOVAL ON HOST",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "INGRESS TOOL TRANSFER",
+        "CARBANAK",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "INGRESS TOOL TRANSFER",
+          "CARBANAK",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "INGRESS TOOL TRANSFER",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "INGRESS TOOL TRANSFER",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "INGRESS TOOL TRANSFER",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "INGRESS TOOL TRANSFER",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "INGRESS TOOL TRANSFER",
+        "BOOSTWRITE",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "INGRESS TOOL TRANSFER",
+          "BOOSTWRITE",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "OBFUSCATED FILES OR INFORMATION",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "OBFUSCATED FILES OR INFORMATION",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "PROCESS INJECTION",
+        "CARBANAK",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "PROCESS INJECTION",
+          "CARBANAK",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "PROCESS INJECTION",
+        "CARBANAK",
+        "EXFILTRATION OVER WEB SERVICE",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "PROCESS INJECTION",
+          "CARBANAK",
+          "EXFILTRATION OVER WEB SERVICE",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "PROCESS INJECTION",
+        "CARBANAK",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "EXFILTRATION",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "PROCESS INJECTION",
+          "CARBANAK",
+          "EXFILTRATION OVER C2 CHANNEL",
+          "EXFILTRATION",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    },
+    {
+      "chain": [
+        "PHISHING",
+        "APT29",
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "EXECUTION",
+        "USER EXECUTION",
+        "FIN7",
+        "PROCESS INJECTION",
+        "DEFENSE EVASION",
+        "OBFUSCATED FILES OR INFORMATION",
+        "SEADUKE",
+        "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+      ],
+      "count": 1,
+      "examples": [
+        [
+          "PHISHING",
+          "APT29",
+          "EXPLOITATION FOR CLIENT EXECUTION",
+          "EXECUTION",
+          "USER EXECUTION",
+          "FIN7",
+          "PROCESS INJECTION",
+          "DEFENSE EVASION",
+          "OBFUSCATED FILES OR INFORMATION",
+          "SEADUKE",
+          "EXFILTRATION OVER ALTERNATIVE PROTOCOL"
+        ]
+      ]
+    }
+  ],
+  "next_steps_after_initial_access": [
+    [
+      "INITIAL ACCESS",
+      1
+    ],
+    [
+      "COZYDUKE",
+      1
+    ],
+    [
+      "TRICKBOT",
+      1
+    ]
+  ]
+}

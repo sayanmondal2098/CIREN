@@ -1,0 +1,14 @@
+{
+  "malware_families": {},
+  "infrastructure": {},
+  "techniques_chains": [],
+  "operational_patterns": {
+    "credential theft": 1,
+    "spear phishing": 1
+  },
+  "actor_objectives": {
+    "APT29": [
+      "Financial Gain"
+    ]
+  }
+}

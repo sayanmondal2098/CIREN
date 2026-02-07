@@ -1,0 +1,93 @@
+{
+  "phish_node_count": 1,
+  "infra_node_count": 9,
+  "top_paths": [],
+  "shared_infra": {},
+  "initial_nodes": [
+    "INITIAL ACCESS"
+  ],
+  "next_steps": [],
+  "top_link_predictions": [
+    {
+      "pair": [
+        "PHISHING",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "score": 1.7627453804102944,
+      "jaccard": 0.42857142857142855,
+      "adamic": 2.652194681636205
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "INDICATOR REMOVAL ON HOST"
+      ],
+      "score": 0.5592508007731452,
+      "jaccard": 0.18181818181818182,
+      "adamic": 0.8108725467431208
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "COMMAND AND SCRIPTING"
+      ],
+      "score": 0.3249026445414291,
+      "jaccard": 0.09090909090909091,
+      "adamic": 0.48089834696298783
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "ACQUIRE INFRASTRUCTURE"
+      ],
+      "score": 0.27782139899274316,
+      "jaccard": 0.09090909090909091,
+      "adamic": 0.40242960438184466
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "SERVER SOFTWARE COMPONENT"
+      ],
+      "score": 0.27782139899274316,
+      "jaccard": 0.09090909090909091,
+      "adamic": 0.40242960438184466
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "EXFILTRATION OVER C2 CHANNEL"
+      ],
+      "score": 0.21454815898765842,
+      "jaccard": 0.09090909090909091,
+      "adamic": 0.2969742043733701
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "COMMAND AND CONTROL"
+      ],
+      "score": 0.0,
+      "jaccard": 0.0,
+      "adamic": 0
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "COMMAND AND CONTROLE"
+      ],
+      "score": 0.0,
+      "jaccard": 0.0,
+      "adamic": 0
+    },
+    {
+      "pair": [
+        "PHISHING",
+        "COMMUNICATION AND CONTROL"
+      ],
+      "score": 0.0,
+      "jaccard": 0.0,
+      "adamic": 0
+    }
+  ]
+}

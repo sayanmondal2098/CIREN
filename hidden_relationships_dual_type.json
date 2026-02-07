@@ -1,0 +1,1913 @@
+{
+  "extraction_method": "chatgpt",
+  "type1_name": "Infrastructure Relationships",
+  "type1_relationships": [
+    {
+      "value": "jmj[.].com",
+      "purpose": "hosting malicious content",
+      "actor": "APT29"
+    },
+    {
+      "value": "diplomacy.pl",
+      "purpose": "hosting malicious ZIP archive",
+      "actor": "APT29"
+    },
+    {
+      "value": "legitimate but compromised third-party website",
+      "purpose": "hosting malicious content",
+      "actor": "APT29"
+    },
+    {
+      "value": "Google Gmail accounts",
+      "purpose": "Resource development for phishing",
+      "actor": "APT29"
+    },
+    {
+      "value": "Harvard's Faculty of Arts and Sciences e-mail accounts",
+      "purpose": "Compromised accounts for phishing",
+      "actor": "APT29"
+    },
+    {
+      "value": "legitimate compromised web servers",
+      "purpose": "Hosting malicious executables",
+      "actor": "APT29"
+    },
+    {
+      "value": "compromised webserver",
+      "purpose": "Hosting malicious PNG image file for malware download",
+      "actor": "APT29"
+    },
+    {
+      "value": "diplomacy.pl",
+      "purpose": "hosting malicious ZIP archive",
+      "actor": "APT29"
+    },
+    {
+      "value": "IP addresses",
+      "purpose": "connect to self-operated servers",
+      "actor": "APT29"
+    },
+    {
+      "value": "not specified",
+      "purpose": "host domains and malware, establish command and control nodes",
+      "actor": "APT29"
+    },
+    {
+      "value": "Google Apps Script, Google Sheets, and Google Forms",
+      "purpose": "C2 communication",
+      "actor": "CARBANAK"
+    },
+    {
+      "value": "Google Docs and Google Forms",
+      "purpose": "C2",
+      "actor": "CARBANAK"
+    },
+    {
+      "value": "http://95.215.47.105",
+      "purpose": "C2",
+      "actor": "CARBANAK"
+    },
+    {
+      "value": "neweggstats.com",
+      "purpose": "Impersonation domain for skimming operations",
+      "actor": "Magecart"
+    },
+    {
+      "value": "baways.com",
+      "purpose": "C2",
+      "actor": "FIN6"
+    },
+    {
+      "value": "89.47.162.248",
+      "purpose": "hosting",
+      "actor": "FIN6"
+    },
+    {
+      "value": "Google Storage",
+      "purpose": "hosting malicious script",
+      "actor": "FIN6"
+    },
+    {
+      "value": "C&C domains",
+      "purpose": "command and control",
+      "actor": "FIN6"
+    },
+    {
+      "value": "hard-coded IP",
+      "purpose": "C2",
+      "actor": "FIN7"
+    },
+    {
+      "value": "hxxps://bing-cdn[.]com",
+      "purpose": "C2",
+      "actor": "unknown"
+    },
+    {
+      "value": "DNS C2",
+      "purpose": "C2 communication",
+      "actor": "FIN7"
+    },
+    {
+      "value": "Oxford University domain names",
+      "purpose": "hosting fake websites for malware delivery",
+      "actor": "OILRIG"
+    },
+    {
+      "value": "DNS tunneling",
+      "purpose": "C2 communication",
+      "actor": "OILRIG"
+    }
+  ],
+  "type2_name": "Operational Patterns",
+  "type2_relationships": [
+    {
+      "pattern_name": "Exploitation for Client Execution",
+      "techniques": [
+        "EXPLOITATION FOR CLIENT EXECUTION (T1203)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "User Execution and Masquerading",
+      "techniques": [
+        "USER EXECUTION (T1204)",
+        "MASQUERADING (T1036)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Information Collection",
+      "techniques": [
+        "INPUT CAPTURE (T1056)",
+        "CREDENTIALS FROM PASSWORD STORES (T1555)",
+        "CLIPBOARD DATA (T1115)",
+        "SCREEN CAPTURE (T1113)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "phishing with malicious attachments",
+      "techniques": [
+        "PHISHING",
+        "MASQUERADING"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing for initial access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING LINK (T1566.002)",
+        "SPEARPHISHING ATTACHMENTS (T1566.001)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "malicious software delivery and execution",
+      "techniques": [
+        "DRIVE-BY COMPROMISE (T1189)",
+        "USER EXECUTION (T1204)",
+        "MASQUERADING (T1036)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING LINK"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "use of RATs for command and control",
+      "techniques": [
+        "INGRESS TOOL TRANSFER",
+        "REMOTE ACCESS SOFTWARE"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "defense evasion techniques",
+      "techniques": [
+        "VIRTUALIZATION/SANDBOX EVASION",
+        "SOFTWARE DISCOVERY",
+        "EXECUTION GUARDRAILS",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spear-phishing with malicious attachments",
+      "techniques": [
+        "PHISHING",
+        "ATTACHMENT"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "execution and persistence",
+      "techniques": [
+        "SYSTEM SERVICES",
+        "SERVICE EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "data exfiltration and C2 communication",
+      "techniques": [
+        "EXFILTRATION OVER C2 CHANNEL"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "credential access and information gathering",
+      "techniques": [
+        "CREDENTIAL DUMPING",
+        "SYSTEM INFORMATION DISCOVERY"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Defense Evasion",
+      "techniques": [
+        "Obfuscated Files or Information"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Exfiltration",
+      "techniques": [
+        "Exfiltration Over Alternative Protocol"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Initial Access",
+      "techniques": [
+        "Phishing"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Command and Control",
+      "techniques": [
+        "Web Service"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Execution",
+      "techniques": [
+        "Command and Scripting Interpreter"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing campaigns",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION",
+        "INGRESS TOOL TRANSFER"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "obfuscation techniques",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spear-phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING LINK"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "delivery of malware via user execution",
+      "techniques": [
+        "USER EXECUTION",
+        "MALICIOUS LINK",
+        "MALICIOUS FILE"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "establishing command and control",
+      "techniques": [
+        "INGRESS TOOL TRANSFER",
+        "REMOTE ACCESS SOFTWARE"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Social Engineering via Spearphishing",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Customized Backdoor Deployment",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Encrypted C2 Communications",
+      "techniques": [
+        "ENCRYPTED CHANNEL",
+        "WEB SERVICE",
+        "APPLICATION LAYER PROTOCOL"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Use of Social Media for C2",
+      "techniques": [
+        "WEB SERVICE"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Obfuscation Techniques",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Transfer of Additional Backdoors",
+      "techniques": [
+        "INGRESS TOOL TRANSFER",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Use of WMI for Persistence",
+      "techniques": [
+        "WINDOWS MANAGEMENT INSTRUMENTATION",
+        "EVENT TRIGGERED EXECUTION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "PowerShell for Execution and Obfuscation",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Phishing with compromised and spoofed email accounts",
+      "techniques": [
+        "COMPROMISE ACCOUNTS",
+        "PHISHING"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Spear phishing with malicious documents",
+      "techniques": [
+        "SPEAR PHISHING LINK",
+        "SPEAR PHISHING ATTACHMENT"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Malware delivery via document macros",
+      "techniques": [
+        "USER EXECUTION",
+        "INGRESS TOOL TRANSFER"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Defense Evasion",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION",
+        "SOFTWARE PACKING",
+        "PYTHON"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "CosmicDuke Infection",
+      "techniques": [
+        "USER EXECUTION: MALICIOUS FILE",
+        "DEFENSE EVASION: MASQUERADING",
+        "COLLECTION: KEYLOGGING",
+        "CREDENTIAL ACCESS: CREDENTIALS FROM PASSWORD STORES",
+        "COLLECTION: CLIPBOARD DATA",
+        "COLLECTION: SCREEN CAPTURE",
+        "COLLECTION: DATA FROM LOCAL SYSTEM",
+        "CREDENTIAL ACCESS: UNSECURED CREDENTIALS: PRIVATE KEYS"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Phishing for initial access",
+      "techniques": [
+        "Spearphishing Link",
+        "Masquerading"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Use of compromised infrastructure for phishing",
+      "techniques": [
+        "Obtain Capabilities"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Execution via malicious file",
+      "techniques": [
+        "Malicious File",
+        "Command and Scripting Interpreter"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing for initial access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING LINK (T1566.002)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "malware delivery and execution",
+      "techniques": [
+        "USER EXECUTION (T1204)",
+        "MALICIOUS FILE (T1204.001)",
+        "OBFUSCATED FILES OR INFORMATION (T1027)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing for initial access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING LINK (T1566.001)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "use of RATs for command and control",
+      "techniques": [
+        "REMOTE ACCESS SOFTWARE (T1219)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "defense evasion",
+      "techniques": [
+        "DEBUGGER EVASION (T1622)",
+        "VIRTUALIZATION/SANDBOX EVASION (T1497)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "discovery of security software",
+      "techniques": [
+        "SOFTWARE DISCOVERY (T1518)",
+        "SECURITY SOFTWARE DISCOVERY (T1518.001)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "encrypted C2 communication",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL (T1071)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing with malicious attachments",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "use of malware for execution and exfiltration",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "DATA FROM LOCAL SYSTEM",
+        "EXFILTRATION OVER C2 CHANNEL"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Defense Evasion",
+      "techniques": [
+        "Obfuscated Files or Information"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Initial Access",
+      "techniques": [
+        "Phishing"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Command and Control",
+      "techniques": [
+        "Web Service",
+        "Encrypted Channel"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Execution",
+      "techniques": [
+        "Command and Scripting Interpreter"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Collection",
+      "techniques": [
+        "Email Collection"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Exfiltration",
+      "techniques": [
+        "Exfiltration Over Alternative Protocol"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING LINK"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "credential harvesting and exfiltration",
+      "techniques": [
+        "OS CREDENTIAL DUMPING",
+        "AUTOMATED EXFILTRATION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Spear-phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "COMPROMISE INFRASTRUCTURE"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Execution through user interaction",
+      "techniques": [
+        "USER EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "OBFUSCATED FILES OR INFORMATION",
+        "PROCESS INJECTION",
+        "SYSTEM BINARY PROXY EXECUTION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spearphishing with malicious attachment",
+      "techniques": [
+        "PHISHING",
+        "MALICIOUS FILE"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "exploitation for client execution",
+      "techniques": [
+        "EXPLOITATION FOR CLIENT EXECUTION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "use of downloader with customized backdoor",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "BOOT OR LOGON AUTOSTART EXECUTION"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "encrypted C2 communications",
+      "techniques": [
+        "ENCRYPTED CHANNEL"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "WMI for Persistence and Evasion",
+      "techniques": [
+        "WINDOWS MANAGEMENT INSTRUMENTATION (T1047)",
+        "EVENT TRIGGERED EXECUTION (T1546)",
+        "OBFUSCATED FILES OR INFORMATION (T1027)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "PowerShell for Execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "POWERSHELL (T1059.001)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Spear Phishing with Malicious Attachments",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Use of Steganography for Defense Evasion",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION (T1027)",
+        "STEGANOGRAPHY (T1027.003)"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "Obfuscation",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "APT29"
+    },
+    {
+      "pattern_name": "spear-phishing for initial access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING LINK (T1566.002)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "use of Cobalt Strike for command and control",
+      "techniques": [
+        "COBALT STRIKE (S0154)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "data exfiltration",
+      "techniques": [
+        "EXFILTRATION OVER C2 CHANNEL (T1041)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "exploitation for lateral movement",
+      "techniques": [
+        "EXPLOITATION OF REMOTE SERVICES (T1210)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Remote Access and Control",
+      "techniques": [
+        "COMMAND AND CONTROL",
+        "PERSISTENCE",
+        "LATERAL MOVEMENT"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Data Collection",
+      "techniques": [
+        "COLLECTION",
+        "SCREEN CAPTURE",
+        "INPUT CAPTURE"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Data Collection",
+      "techniques": [
+        "INPUT CAPTURE",
+        "SCREEN CAPTURE",
+        "DATA FROM LOCAL SYSTEM"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Command and Control",
+      "techniques": [
+        "REMOTE SERVICES",
+        "INGRESS TOOL TRANSFER",
+        "PROTOCOL TUNNELING"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Use of legitimate services for C2",
+      "techniques": [
+        "WEB SERVICE (T1102)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Social engineering and execution of malicious VBScript",
+      "techniques": [
+        "USER EXECUTION (T1204)",
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "spear phishing with malicious attachment",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "exploitation for client execution",
+      "techniques": [
+        "EXPLOITATION FOR CLIENT EXECUTION"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "installation of backdoor",
+      "techniques": [
+        "INGRESS TOOL TRANSFER"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "collection from compromised devices",
+      "techniques": [
+        "VIDEO CAPTURE",
+        "DATA FROM LOCAL SYSTEM",
+        "INPUT CAPTURE"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "spear phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "exploitation and installation of backdoor",
+      "techniques": [
+        "EXPLOITATION FOR CLIENT EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "lateral movement and surveillance",
+      "techniques": [
+        "REMOTE SERVICES",
+        "VIDEO CAPTURE"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "spear phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "malware deployment and evolution",
+      "techniques": [
+        "DEVELOP CAPABILITIES",
+        "MALWARE"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "maintaining persistence",
+      "techniques": [
+        "SCHEDULED TASK/JOB",
+        "BOOT OR LOGON AUTOSTART EXECUTION"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "phishing with malicious attachment",
+      "techniques": [
+        "INITIAL ACCESS (TA0001)",
+        "PHISHING (T1566)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "execution of malicious script",
+      "techniques": [
+        "EXECUTION (TA0002)",
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "VISUAL BASIC (T1059.005)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "data exfiltration",
+      "techniques": [
+        "COLLECTION (TA0009)",
+        "DATA FROM LOCAL SYSTEM (T1005)",
+        "SCREEN CAPTURE (T1113)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "malware download and execution",
+      "techniques": [
+        "COMMAND AND CONTROL (TA0011)",
+        "INGRESS TOOL TRANSFER (T1105)"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Spearphishing with follow-up",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT",
+        "SPEARPHISHING VIA SERVICE"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Malware Execution and Persistence",
+      "techniques": [
+        "USER EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "SCHEDULED TASK/JOB"
+      ],
+      "actor": "CARBANAK"
+    },
+    {
+      "pattern_name": "Credit card skimming",
+      "techniques": [
+        "ACQUIRE INFRASTRUCTURE",
+        "IMPERSONATION",
+        "EXFILTRATION OVER C2 CHANNEL",
+        "OBTAIN CAPABILITIES",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "Magecart"
+    },
+    {
+      "pattern_name": "Lateral Movement via RDP",
+      "techniques": [
+        "Remote Services: Remote Desktop Protocol"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Ransomware Injection",
+      "techniques": [
+        "Process Injection",
+        "Defense Evasion"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Encoded PowerShell Command Execution",
+      "techniques": [
+        "Command and Scripting Interpreter: PowerShell",
+        "Execution"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Malicious Payload Delivery",
+      "techniques": [
+        "Ingress Tool Transfer",
+        "Shared Modules"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Persistence and Privilege Escalation",
+      "techniques": [
+        "Create or Modify System Process: Windows Service",
+        "Privilege Escalation"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Magecart attack",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "INPUT CAPTURE (T1056)",
+        "EXFILTRATION OVER C2 CHANNEL (T1041)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "E-commerce platform compromise",
+      "techniques": [
+        "EXPLOIT PUBLIC-FACING APPLICATION",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "MASQUERADING",
+        "INGRESS TOOL TRANSFER",
+        "INPUT CAPTURE",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Phishing for initial access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISING ATTACHMENT (T1566.001)",
+        "SPEARPHISHING LINK (T1566.002)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Use of exploit kits for execution",
+      "techniques": [
+        "EXPLOITATION FOR CLIENT EXECUTION (T1203)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Spearphishing for Initial Access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING LINK (T1566.002)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Malware Delivery and Execution",
+      "techniques": [
+        "INGRESS TOOL TRANSFER (T1105)",
+        "USER EXECUTION (T1204)",
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Memory-resident malware deployment",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER: POWERSHELL",
+        "WINDOWS MANAGEMENT INSTRUMENTATION",
+        "REFLECTIVE CODE LOADING"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Credential harvesting and lateral movement",
+      "techniques": [
+        "OS CREDENTIAL DUMPING",
+        "REMOTE SERVICES"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Use of publicly available tools for reconnaissance and data handling",
+      "techniques": [
+        "DISCOVERY",
+        "COLLECTION"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Leveraging stolen credentials for initial access and lateral movement",
+      "techniques": [
+        "INITIAL ACCESS",
+        "LATERAL MOVEMENT"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Installation of malicious services for persistence and remote command execution",
+      "techniques": [
+        "PERSISTENCE",
+        "PRIVILEGE ESCALATION",
+        "EXECUTION"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Email phishing for credential theft",
+      "techniques": [
+        "PHISHING"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Use of PowerShell for execution and persistence",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "BOOT OR LOGON AUTOSTART EXECUTION",
+        "SCHEDULED TASK/JOB"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Use of signed binaries to bypass security controls",
+      "techniques": [
+        "SUBVERT TRUST CONTROLS (T1553)",
+        "CODE SIGNING (T1553.002)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Secure C&C communication",
+      "techniques": [
+        "ENCRYPTED CHANNEL (T1573)",
+        "ASYMMETRIC CRYPTOGRAPHY (T1573.002)",
+        "SYMMETRIC CRYPTOGRAPHY (T1573.001)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Spear Phishing for Initial Access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISING LINK (T1566.002)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Use of Malware for Execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "JAVASCRIPT/JSCRIPT (T1059.007)",
+        "POWERSHELL (T1059.001)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Lateral Movement and Malware Deployment",
+      "techniques": [
+        "SOFTWARE DEPLOYMENT TOOLS (T1072)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Obfuscation and Evasion",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION (T1027)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Phishing for Initial Access",
+      "techniques": [
+        "PISHING (T1566)",
+        "SPEARPHISHING LINK (T1566.002)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Execution through Scripts",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "POWERSHELL (T1059.001)",
+        "USER EXECUTION (T1204)",
+        "MALICIOUS FILE (T1204.002)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Lateral Movement and Discovery",
+      "techniques": [
+        "REMOTE SYSTEM DISCOVERY (T1018)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "Command and Control",
+      "techniques": [
+        "REMOTE ACCESS TOOLS (T1219)"
+      ],
+      "actor": "FIN6"
+    },
+    {
+      "pattern_name": "spear phishing with tracking and payload delivery",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SYSTEM NETWORK CONNECTIONS DISCOVERY (T1016)",
+        "EXPOLITATION FOR CLIENT EXECUTION (T1203)",
+        "USER EXECUTION (T1204)",
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "command and control",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL",
+        "WEB PROTOCOLS",
+        "INGRESS TOOL TRANSFER",
+        "REMOTE ACCESS SOFTWARE"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "DLL Search Order Hijacking",
+      "techniques": [
+        "HIJACK EXECUTION FLOW",
+        "DLL SEARCH ORDER HIJACKING"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "In-memory Execution",
+      "techniques": [
+        "COMMAND AND CONTROL",
+        "INGRESS TOOL TRANSFER",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "spear phishing for initial access",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "execution through user interaction",
+      "techniques": [
+        "USER EXECUTION (T1204)",
+        "MALICIOUS FILE (T1204.002)",
+        "EXPOLITATION FOR CLIENT EXECUTION (T1203)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "maintaining access",
+      "techniques": [
+        "REMOTE ACCESS SOFTWARE (T1219)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Spearphishing with document",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "unknown"
+    },
+    {
+      "pattern_name": "Execution and Communication",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "APPLICATION LAYER PROTOCOL",
+        "DEFENSE EVASION"
+      ],
+      "actor": "unknown"
+    },
+    {
+      "pattern_name": "desktop reconnaissance",
+      "techniques": [
+        "SCREEN CAPTURE"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "lateral movement",
+      "techniques": [
+        "REMOTE SERVICES",
+        "VNC"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "credential theft",
+      "techniques": [
+        "INPUT CAPTURE",
+        "KEYLOGGING"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "command and control communication",
+      "techniques": [
+        "NON-APPLICATION LAYER PROTOCOL",
+        "ENCRYPTED CHANNEL"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "defense evasion",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION",
+        "PROCESS INJECTION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Persistence via Application Shim Database",
+      "techniques": [
+        "EVENT TRIGGER EXECUTION",
+        "APPLICATION SHIMMING"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Process Injection for Privilege Escalation and Defense Evasion",
+      "techniques": [
+        "PROCESS INJECTION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Phishing with malicious attachments",
+      "techniques": [
+        "Spearphishing Attachment",
+        "Exploitation for Client Execution",
+        "Command and Scripting Interpreter"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Evasion and Persistence",
+      "techniques": [
+        "User Execution",
+        "Scheduled Task/Job"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Phishing for Initial Access",
+      "techniques": [
+        "PHISHING"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Use of Scripting for Execution",
+      "techniques": [
+        "USER EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Obfuscation Techniques",
+      "techniques": [
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Lateral Movement",
+      "techniques": [
+        "REMOTE ACCESS SOFTWARE",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Payload Delivery and Execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "REFLECTIVE CODE LOADING",
+        "NATIVE API",
+        "PROCESS INJECTION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Defense Evasion",
+      "techniques": [
+        "REFLECTIVE CODE LOADING",
+        "MODIFY REGISTRY"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Use of DNS for Command and Control",
+      "techniques": [
+        "DNS tunneling",
+        "Encrypted Channel",
+        "Fallback Channel"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Use of PowerShell for Malware Deployment",
+      "techniques": [
+        "Command and Scripting Interpreter",
+        "Application Layer Protocol"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Visual Capturing Attack",
+      "techniques": [
+        "COLLECTION (TA0009)",
+        "CREDENTIAL ACCESS (TA0006)",
+        "INPUT CAPTURE (T1056)",
+        "KEYLOGGING (T1056.001)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Use of Backdoors and Exploits",
+      "techniques": [
+        "EXECUTION (TA0002)",
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "EXPLOITATION FOR CLIENT EXECUTION (T1203)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Spear-Phishing for Initial Access",
+      "techniques": [
+        "INITIAL ACCESS (TA0001)",
+        "PHISHING (T1566)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Use of Exploitation Frameworks",
+      "techniques": [
+        "EXECUTION (TA0002)",
+        "EXPLOITATION FOR CLIENT EXECUTION (T1203)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Command and Control via Cobalt Beacon",
+      "techniques": [
+        "COMMAND AND CONTROL (TA0011)",
+        "INGRESS TOOL TRANSFER (T1105)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "spear phishing campaigns",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "GRIFFON implant execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "SCHEDULED TASK/JOB"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "script management and control",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "INGRESS TOOL TRANSFER"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "initial access via phishing",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "malware file operations",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "INDICATOR REMOVAL"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "DNS-based command and control",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "spear phishing with malicious document",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "fileless attack via DNS queries",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL (T1071)",
+        "DNS (T1071.001)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "exploitation and execution via OLE and JavaScript",
+      "techniques": [
+        "EXPLOITATION FOR CLIENT EXECUTION (T1203)",
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "JAVASCRIPT (T1059.007)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "persistence through scheduled tasks",
+      "techniques": [
+        "SCHEDULED TASK/JOB (T1053)",
+        "SCHEDULED TASK (T1053.005)"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Phishing with malicious attachment",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Use of JScript backdoor for execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "JavaScript backdoor deployment",
+      "techniques": [
+        "COMMAND AND CONTROL",
+        "EXECUTION",
+        "DEFENSE EVASION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "Social engineering for macro execution",
+      "techniques": [
+        "USER EXECUTION",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "phishing campaigns",
+      "techniques": [
+        "SPEARPHISHING ATTACHMENT",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "OFUSCATED FILES OR INFORMATION",
+        "USER EXECUTION",
+        "CREDENTIALS FROM PASSWORD STORES",
+        "APPLICATION LAYER PROTOCOL"
+      ],
+      "actor": "FIN7"
+    },
+    {
+      "pattern_name": "phishing with weaponized documents",
+      "techniques": [
+        "PHISHING (T1566)",
+        "SPEARPHISHING ATTACHMENT (T1566.001)",
+        "EXPLOITATION FOR CLIENT EXECUTION (T1203)",
+        "MALICIOUS FILE (T1203.002)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "use of scripting for execution",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER (T1059)",
+        "POWERSHELL (T1059.001)",
+        "VISUAL BASIC (T1059.005)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "spearphishing attack",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "malware deployment",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "CREATE OR MODIFY SYSTEM PROCESS",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "spear-phishing operation",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "INGRESS TOOL TRANSFER",
+        "SCHEDULED TASK/JOB"
+      ],
+      "actor": "APT34"
+    },
+    {
+      "pattern_name": "PowerShell-based backdoor delivery",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER: POWERSHELL",
+        "EXPLOIT PUBLIC-FACING APPLICATION"
+      ],
+      "actor": "APT34"
+    },
+    {
+      "pattern_name": "Malicious document exploitation",
+      "techniques": [
+        "PHISHING: SPEARPHISHING ATTACHMENT",
+        "EXPOLOITATION FOR CLIENT EXECUTION"
+      ],
+      "actor": "APT34"
+    },
+    {
+      "pattern_name": "Spearphishing via LinkedIn",
+      "techniques": [
+        "INITIAL ACCESS (TA0001)",
+        "PHISHING (T1566)",
+        "SPEARPHISHIN VIA SERVICE (T1566.002)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Anti-Sandboxing",
+      "techniques": [
+        "DEFENSE EVASION (TA0005)",
+        "IMPAIR DEFENSES (T1562)",
+        "DISABLE OR MODIFY TOOLS (T1562.001)",
+        "VIRTUALIZATION/SANDBOX EVASION (T1497)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Malware Delivery and Execution",
+      "techniques": [
+        "EXECUTION (TA0002)",
+        "USER EXECUTION (T1204)",
+        "MALICIOUS FILE (T1204.002)",
+        "OBFUSCATED FILES OR INFORMATION (T1027)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Command and Control Communication",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL (T1071)",
+        "WEB PROTOCOLS (T1071.001)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Persistence Mechanism",
+      "techniques": [
+        "EXECUTION (TA0002)",
+        "PERSISTENCE (TA0003)",
+        "PRIVILEGE ESCALATION (TA0004)",
+        "SCHEDULED TASK/JOB (T1053)",
+        "SCHEDULED TASK (T1053.005)"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Spearphishing with malicious attachment",
+      "techniques": [
+        "PHISHING",
+        "USER EXECUTION",
+        "HIDE ARTIFACTS"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "spear-phishing for initial access",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "credential harvesting and lateral movement",
+      "techniques": [
+        "OS CREDENTIAL DUMPING"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Credential Access",
+      "techniques": [
+        "OS Credential Dumping",
+        "Brute Force",
+        "Exploit Public-Facing Applications"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Privilege Escalation and Lateral Movement",
+      "techniques": [
+        "Exploitation for Privilege Escalation"
+      ],
+      "actor": "OILRIG"
+    },
+    {
+      "pattern_name": "Supply Chain Compromise via Tax Software",
+      "techniques": [
+        "SUPPLY CHAIN COMPROMISE: SOFTWARE SUPPLY CHAIN"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Lateral Movement via Network Exploits",
+      "techniques": [
+        "EXPLOITATION OF REMOTE SERVICES"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Ransomware Encryption Tactics",
+      "techniques": [
+        "ENCRYPTION FOR IMPACT"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Defense Evasion via Sandbox Detection",
+      "techniques": [
+        "VIRTUALIZATION/SANDBOX EVASION",
+        "OBFUSCATED FILES OR INFORMATION"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "wiping of Windows systems",
+      "techniques": [
+        "DISK WIPE"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "destruction of serial-to-Ethernet devices",
+      "techniques": [
+        "FIRMWARE CORRUPTION"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "command and control communication",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL",
+        "PROXY"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "spearphishing for initial access",
+      "techniques": [
+        "PHISHING"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "use of PowerShell for execution and discovery",
+      "techniques": [
+        "COMMAND AND SCRIPTING INTERPRETER",
+        "POWERSHELL"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "credential reuse for persistence",
+      "techniques": [
+        "VALID ACCOUNTS"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "obfuscation and indicator removal to avoid detection",
+      "techniques": [
+        "INDICATOR REMOVAL ON HOST",
+        "MASQUERADING"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "destructive attack",
+      "techniques": [
+        "DATA DESTRUCTION"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Defense Evasion",
+      "techniques": [
+        "Indicator Removal on Host",
+        "Obfuscated Files or Information",
+        "Masquerading"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Execution",
+      "techniques": [
+        "Command and Scripting Interpreter",
+        "Windows Management Instrumentation",
+        "User Execution"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Discovery",
+      "techniques": [
+        "Network Service Discovery"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Destructive Malware",
+      "techniques": [
+        "KillDisk",
+        "Industroyer",
+        "NotPetya",
+        "Olympic Destroyer"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Remote System Manipulation",
+      "techniques": [
+        "Remote Services",
+        "Valid Accounts"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "System Disruption",
+      "techniques": [
+        "Disk Wipe",
+        "Data Destruction",
+        "Firmware Corruption"
+      ],
+      "actor": "SANDWORM"
+    },
+    {
+      "pattern_name": "Phishing for Initial Access",
+      "techniques": [
+        "PHISHING"
+      ],
+      "actor": "WIZARDSPIDER"
+    },
+    {
+      "pattern_name": "Using Emotet for Tool Transfer",
+      "techniques": [
+        "INGRESS TOOL TRANSFER"
+      ],
+      "actor": "WIZARDSPIDER"
+    },
+    {
+      "pattern_name": "Credential Access through TrickBot",
+      "techniques": [
+        "CREDENTIAL FROM PASSWORD STORES",
+        "OS CREDENTIAL DUMPING"
+      ],
+      "actor": "WIZARDSPIDER"
+    },
+    {
+      "pattern_name": "Reconnaissance and Lateral Movement via PowerShell Empire",
+      "techniques": [
+        "COMMAND AND SCRIPTING"
+      ],
+      "actor": "WIZARDSPIDER"
+    },
+    {
+      "pattern_name": "Command and Control via Remote IP",
+      "techniques": [
+        "APPLICATION LAYER PROTOCOL"
+      ],
+      "actor": "WIZARDSPIDER"
+    },
+    {
+      "pattern_name": "Credential Harvesting",
+      "techniques": [
+        "DEFENSE EVASION",
+        "PERSISTENCE",
+        "INITIAL ACCESS",
+        "PRIVILEGE ESCALATION",
+        "CREDENTIALS ACCESS"
+      ],
+      "actor": "UNC1878"
+    },
+    {
+      "pattern_name": "Lateral Movement",
+      "techniques": [
+        "LATERAL MOVEMENT",
+        "REMOTE SERVICES"
+      ],
+      "actor": "UNC1878"
+    },
+    {
+      "pattern_name": "Data Staging and Exfiltration",
+      "techniques": [
+        "COLLECTION",
+        "ARCHIVE COLLECTED DATA",
+        "DATA STAGED"
+      ],
+      "actor": "UNC1878"
+    },
+    {
+      "pattern_name": "Ransomware Deployment",
+      "techniques": [
+        "EXECUTION",
+        "COMMAND AND SCRIPTING INTERPRETER"
+      ],
+      "actor": "UNC1878"
+    },
+    {
+      "pattern_name": "Email Phishing with Malicious Attachment",
+      "techniques": [
+        "PHISHING",
+        "SPEARPHISHING ATTACHMENT"
+      ],
+      "actor": "WIZARDSPIDER"
+    },
+    {
+      "pattern_name": "Lateral Movement via Remote Services",
+      "techniques": [
+        "VNC",
+        "SSH",
+        "REMOTE DESKTOP PROTOCOL"
+      ],
+      "actor": "WIZARDSPIDER"
+    }
+  ],
+  "total_type1": 23,
+  "total_type2": 217
+}
